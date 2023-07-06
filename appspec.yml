@@ -2,11 +2,13 @@ version: 0.0
 os: linux
 
 files:
-   - source: /test.jsp
-     destination: /root/tomcat/webapps/ROOT
+#   - source: /test.jsp
+#     destination: /root/tomcat/webapps/ROOT
 #   - source: /index.html
 #     destination: /var/www/html
 #
+    - source: /dbtest.jsp
+      destination: /root/tomcat/webapps/ROOT
 file_exists_behavior: OVERWRITE
 
 hooks:
